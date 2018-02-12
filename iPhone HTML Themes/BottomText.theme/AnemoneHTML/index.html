@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>BottonText</title>
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+<script type="text/javascript" charset="utf-8" src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
+
+<style>
+
+body {
+	margin: 0;
+	/*padding: 400px 40px 0 32px;*/
+	padding: 550px 5px 0 5px;
+	text-shadow: 1px 1px 0px rgba(55,55,55,0.2);
+	font-weight: 500;
+	color: #000;
+	font-family: 'Ubuntu', san-serif;
+	background: transparent;
+}
+h3 {
+	padding: 0;
+	margin: 2px 0 4px 0;
+	font-size: 100px;
+	font-weight: 400;
+}
+
+</style>
+
+<script type="text/javascript">
+
+var myArray = [
+  "😍 Hi Sweetie 💕",
+  "I love you",
+  "You're beautiful looking today"
+];
+
+var randomItem = myArray[Math.floor(Math.random()*myArray.length)];
+
+//document.body.innerHTML = randomItem;
+
+</script>
+
+</head>
+
+<body>
+
+
+	<div style="width: 100%; text-align: center;">
+		<span><script type="text/javascript">
+        document.write(randomItem)
+      </script></span>
+	</div>
+	
+	<!--<div style="width: 33%; float: right; text-align: right;">
+		<span id="litecoin"></span>
+		<span id="arrowLTC"></span>
+	</div>-->
+
+</body>
+</html>
